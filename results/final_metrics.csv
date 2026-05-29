@@ -1,0 +1,6 @@
+Mô hình,Accuracy,Macro F1,Weighted F1,Ghi chú,Delta F1
+LR goc (baseline T2),0.5554,0.3188,0.5161,Khong xu ly mat can bang,0.0000
+LR + balanced (T3),0.5993,0.6165,0.5913,class_weight=balanced,+0.2977
+Linear SVM + balanced (T3),0.6743,0.6544,0.6724,SVM phu hop TF-IDF thua,+0.3356
+LR + title+desc (T3 best),0.715,0.7236,0.7117,Title nhan doi + desc,+0.4048
+SVM + title+desc C=0.5 (T4),0.7573,0.7543,0.7549,Cai tien tuan 4,+0.4355

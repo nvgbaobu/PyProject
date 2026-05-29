@@ -1,0 +1,15 @@
+Vai trò,Precision,Recall,F1-score,Số mẫu test,Đánh giá
+Full-stack Developer,0.897,0.953,0.924,64,Tốt
+Embedded Engineer,0.818,0.9,0.857,10,Tốt
+Game Developer,0.75,1.0,0.857,12,Tốt
+Frontend Developer,0.81,0.895,0.85,57,Tốt
+Mobile Developer,0.825,0.868,0.846,38,Tốt
+Business Analyst,0.692,1.0,0.818,9,Tốt
+DevOps/Cloud/System Engineer,0.75,0.818,0.783,11,Khá
+QA Engineer,0.658,0.926,0.769,27,Khá
+Backend Developer,0.718,0.771,0.743,109,Khá
+AI Engineer,0.571,0.923,0.706,13,Khá
+Other IT Role,0.847,0.594,0.698,187,Khá
+Software Engineer,0.7,0.614,0.654,57,Khá
+Data Engineer,0.471,1.0,0.64,8,Khá
+Java Developer,0.353,0.5,0.414,12,Cần cải thiện

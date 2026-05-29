@@ -1,0 +1,4 @@
+Đặc trưng,Accuracy,Macro F1
+Description only,0.7052,0.6742
+Title only,0.8339,0.8304
+Title + Desc,0.8029,0.7766
