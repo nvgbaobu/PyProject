@@ -1,4 +1,4 @@
-Mô hình,Accuracy,Macro F1,Weighted F1,Ghi chú,Delta F1
+Mô hình,Accuracy,Macro F1,Weighted F1,Nhận xét,Delta F1
 LR goc (baseline T2),0.5912,0.34,0.5404,Khong xu ly mat can bang,0.0000
 LR + balanced (T3),0.6205,0.6284,0.6175,class_weight=balanced,+0.2884
 Linear SVM + balanced (T3),0.7296,0.7219,0.7309,SVM phu hop TF-IDF thua,+0.3819

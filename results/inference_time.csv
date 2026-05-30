@@ -1,6 +1,6 @@
 Mô hình,Macro F1,Inference(ms),ms/mẫu
-LR goc (T2),0.34,1.7,0.003
-LR balanced (T3),0.6284,2.2,0.004
-SVM balanced (T3),0.7219,2.4,0.004
+LR goc (T2),0.34,3.0,0.005
+LR balanced (T3),0.6284,1.6,0.003
+SVM balanced (T3),0.7219,1.5,0.002
 LR + title+desc (T3),0.7553,2.4,0.004
-SVM + title+desc (T4),0.8147,2.3,0.004
+SVM + title+desc (T4),0.8147,1.7,0.003
