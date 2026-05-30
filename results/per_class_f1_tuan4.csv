@@ -1,15 +1,16 @@
 Vai trò,Precision,Recall,F1-score,Số mẫu test,Đánh giá
-Full-stack Developer,0.897,0.953,0.924,64,Tốt
-Embedded Engineer,0.818,0.9,0.857,10,Tốt
-Game Developer,0.75,1.0,0.857,12,Tốt
-Frontend Developer,0.81,0.895,0.85,57,Tốt
-Mobile Developer,0.825,0.868,0.846,38,Tốt
-Business Analyst,0.692,1.0,0.818,9,Tốt
-DevOps/Cloud/System Engineer,0.75,0.818,0.783,11,Khá
-QA Engineer,0.658,0.926,0.769,27,Khá
-Backend Developer,0.718,0.771,0.743,109,Khá
-AI Engineer,0.571,0.923,0.706,13,Khá
-Other IT Role,0.847,0.594,0.698,187,Khá
-Software Engineer,0.7,0.614,0.654,57,Khá
-Data Engineer,0.471,1.0,0.64,8,Khá
-Java Developer,0.353,0.5,0.414,12,Cần cải thiện
+Full-stack Developer,0.901,1.0,0.948,64,Tốt
+Software Developer,0.889,1.0,0.941,8,Tốt
+Frontend Developer,0.963,0.912,0.937,57,Tốt
+Mobile Developer,0.946,0.921,0.933,38,Tốt
+Business Analyst,0.818,1.0,0.9,9,Tốt
+Game Developer,0.786,0.917,0.846,12,Tốt
+QA Engineer,0.722,0.963,0.825,27,Tốt
+Backend Developer,0.796,0.789,0.793,109,Khá
+AI Engineer,0.667,0.923,0.774,13,Khá
+Software Engineer,0.75,0.796,0.772,49,Khá
+Other IT Role,0.847,0.696,0.764,191,Khá
+Data Engineer,0.615,1.0,0.762,8,Khá
+Embedded Engineer,0.643,0.9,0.75,10,Khá
+DevOps Engineer,0.714,0.714,0.714,7,Khá
+Java Developer,0.538,0.583,0.56,12,Cần cải thiện
