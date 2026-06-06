@@ -52,7 +52,7 @@ def render_metrics(metrics: dict[str, float], train_size: int, test_size: int, n
 def render_confusion_image() -> None:
     cm_path = ROOT_DIR / "results" / "confusion_matrix.png"
     if cm_path.exists():
-        st.image(str(cm_path), caption="Confusion matrix chính thức", use_container_width=True)
+        st.image(str(cm_path), caption="Confusion matrix chính thức", width="stretch")
 
 
 def render_single_prediction(model) -> None:
@@ -60,12 +60,11 @@ def render_single_prediction(model) -> None:
     with st.form("single_predict_form"):
         title = st.text_input(
             "Job title",
-            value="Senior Backend Developer",
-            placeholder="Ví dụ: Senior Backend Developer",
+            placeholder="",
         )
         description = st.text_area(
             "Job description",
-            value="Build REST APIs with Java, Spring Boot, MySQL, Docker and Kubernetes.",
+            placeholder="",
             height=180,
         )
         top_k = st.slider("Top-k", min_value=1, max_value=5, value=3)
@@ -84,7 +83,7 @@ def render_single_prediction(model) -> None:
         st.write("Top nhãn gần nhất:")
         st.dataframe(
             pd.DataFrame(top_preds, columns=["Label", "Score"]),
-            use_container_width=True,
+            width="stretch",
             hide_index=True,
         )
 

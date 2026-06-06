@@ -1,0 +1,30 @@
+
+╔══════════════════════════════════════════════════════════════════╗
+║         INSIGHT THỊ TRƯỜNG IT VIỆT NAM – KẾT QUẢ PHÂN TÍCH     ║
+╠══════════════════════════════════════════════════════════════════╣
+║ Dữ liệu: 3067 tin tuyển dụng (LinkedIn, ITviec, TopCV)         
+╠══════════════════════════════════════════════════════════════════╣
+
+
+② KỸ NĂNG ĐANG ĐƯỢC YÊU CẦU:
+   • Ngôn ngữ phổ biến nhất: JavaScript và Java dẫn đầu.
+   • Framework/công nghệ hot nhất: Git.
+   • Java và Python là 2 ngôn ngữ cross-role: xuất hiện ở nhiều vai trò
+     cùng lúc → kỹ năng nền tảng có giá trị cao trên thị trường.
+
+③ PHÂN BỐ ĐỊA LÝ:
+   • Hà Nội chiếm 44.8% tin – trung tâm IT lớn nhất cả nước.
+   • Hồ Chí Minh chiếm 44.1% – trung tâm IT thứ hai.
+   • Hai TP chiếm phần lớn tin tuyển dụng → thị trường IT còn tập trung
+     cao, cơ hội ở tỉnh/TP khác còn hạn chế.
+
+④ KẾT NỐI MÔ HÌNH ↔ THỊ TRƯỜNG:
+   • Vai trò khó phân loại nhất (F1=0.560): Java Developer
+     → Không phải lỗi kỹ thuật: ranh giới vai trò đang MỜ DẦN trên thị
+     trường thực tế (xu hướng fullstack hóa, overlap JD).
+   • F1 thấp của "Other IT Role" phản ánh độ phân mảnh của thị trường:
+     không có bộ từ vựng đặc trưng chung cho nhóm này.
+   • Mô hình đạt Macro F1=0.8147 → đủ năng lực khai thác dữ liệu JD
+     để tự động map tin tuyển dụng vào nhóm vai trò.
+
+╚══════════════════════════════════════════════════════════════════╝
